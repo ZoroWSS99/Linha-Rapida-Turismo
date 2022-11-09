@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+  <header>
+    <meta charset="uft-8" />
+    <title>Linha Rapida Turismo</title>
+    <meta name="viewport" content="width=device-width, initial-sale=1.0" />
+
+    <link rel="stylesheet" href="CSS/general.css">
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/orçamento-header.css">
+    <link rel="stylesheet" href="CSS/orçamento-content.css">
+    <script src="togglemenu.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </header>
+
+  <body>
+    <header class="header">
+      <nav>
+        <div>
+          <a href="" class="logo">LOGO</a>
+        </div>
+
+        <button class="mobile-nav-toggle" area-controls="primary-navigation" aria-expanded="false">
+          <span class="sr-only">Menu</span><i class="fa fa-bars fa-2x"></i>
+        </button>
+
+        <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+          <li class="active">
+            <a href="index.html">
+              HOME
+            </a>
+          <li>
+            <a href="">
+              DESTINOS
+            </a>
+          <li>
+            <a href="orçamentos.html">
+              ORÇAMENTOS
+            </a>
+          <li>
+            <a href="contact.html">
+              CONTATO
+            </a>
+            <li>
+            <a href="quemsomos.html">
+              QUEM SOMOS
+            </a>
+        </ul>
+      </nav>
+      <h1>Orçamentos</h1>
+    </header>
+
+    <section class="orçamento">
+
+      <div class="row-orçamento">
+        <div class="col-orçamento">
+          
+          <form action="">
+            <input type="text" placeholder="Nome" required>
+            <input type="text" placeholder="Sobrenome" required>
+            <input pattern="[A-Za-z0-9._+-]+@+[A-Za-z0-9 -]+\.[a-z]+" type="email" placeholder="Email: exemplo@gmail.com" required>
+            <input pattern="[0-9 -]+" type="tel" placeholder="Telefone" required>
+            <label for="date1">Data de ida</label>
+            <input type="date" name="date1" placeholder="Data: Volta" required>
+            <label for="date2">Data de Volta</label>
+            <input type="date" name="date2" placeholder="Data: Volta" required>
+            <select id="viagem" aria-placeholder="Selecione o tipo de viagem">
+              <option value="viagem">Selecione o tipo de Viagem</option>
+              <option value="viagem">Nacional</option>
+              <option value="viagem">Internacional</option>
+              <option value="viagem">Coorporativa</option>
+            </select>
+            <input type="text" placeholder="Destino" required>
+            <textarea rows="10" placeholder="Dúvidas e Comentários" required></textarea>
+            <button type="submit" class="orçamento-form-btn">Enviar</button>
+          </form>
+
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+    <footer class="footer">
+      <div class="row-footer">
+        <div class="col-footer">
+        <a href="">LOGO</a>
+        <p>Rua Mariana Najar,601, lojas 16 e 17<br>
+        Vila Nova Socorro - Mogi das Cruzes - SP<br>
+        Localizado dentro do Alabarce Boulevard</p>
+        </div>
+        <div class="col-footer">
+          <h3>Entre em Contato</h3>
+          <p><i class="fa fa-phone"></i> (11) 4799-4142</p>
+          <p><i class="fa fa-whatsapp"></i> (11) 99445-8504</p>
+          <p><i class="fa fa-envelope"></i> atendimento@linharapidaturismo.com.br</p>
+        </div>
+
+      </div>
+      <div class="copy-footer">
+        <p>© Linha Rapida Turismo | Desenvolvido por MARTS MKT</p> 
+      </div>
+      
+    </footer>
+
+
+  </body>
+
+</html>

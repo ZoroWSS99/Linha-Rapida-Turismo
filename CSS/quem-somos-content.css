@@ -1,0 +1,58 @@
+.quem-somos {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.row-quem-somos {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-quem-somos {
+  flex: 48%;
+  padding: 30px 2px;
+}
+
+.col-quem-somos img {
+  width: 100%;
+}
+
+.col-quem-somos h1 {
+  padding-top: 0;
+  padding-right: 30px;
+}
+
+.col-quem-somos p {
+  padding:15px 20px 25px 0;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.btn-quem-somos  {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 12px 34px;
+  font-size: 14px;
+  font-weight: 600;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.btn-quem-somos:hover {
+  background: black;
+  color: #fff;
+  font-weight: 600;
+  transition: 1s;
+}
+
+@media(max-width: 700px) {
+  .row-quem-somos {
+    flex-direction: column;
+  }
+}
